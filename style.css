@@ -1,0 +1,165 @@
+
+img{
+ width:32.625%; 
+ height:33%; 
+}
+H3{
+ background-color: blue;
+ color:white ; 
+}
+table{
+ border:2px solid blue; 
+ width:100%; 
+ PADDING:1PX; 
+ border-collapse: separate;
+
+}
+.table2{
+    width:100%; 
+
+}
+.table2 th,td{
+    width:25%; 
+}
+
+th,tr,TD{
+    width: 50%;
+ 
+ border:1px solid blue;
+ 
+ border-collapse: separate;
+ 
+ 
+}
+
+.picture img{
+    width:32.8%; 
+ height:32%;
+ 
+}
+.picture img .pic1 .pic2{
+    width:40%;  
+ height:32%;
+
+}
+ 
+    
+
+*{
+    padding:0 ;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    background-color:blue;
+}
+ul li{
+    display: inline-block   ;
+    position: relative;
+}
+ul li a {
+    display: block;
+    padding:20px 25px; 
+    color:#FFF; 
+    text-decoration: none;
+    text-align: center  ;
+    size: 20px;
+
+
+}
+ul li ul.dropdown li{
+    display:list-item;
+}
+
+ul li ul.dropdown{
+    width: 150%;
+    background-color: blue; 
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    background-color: #112c66;
+
+}
+ul li:hover ul.dropdown{
+    display:list-item; 
+}
+.iframes1{
+ width: 500px;
+ height: 300px;
+
+ 
+}
+.iframes2{
+ width: 500px;
+ height: 300px;
+ 
+ 
+
+}
+.foot{
+    background:gray
+
+    ;
+    
+}
+*{
+    padding: 0; 
+    margin:0; 
+    box-sizing: border-box;
+
+}
+footer{
+    background-color: darkblue; 
+    ;
+}
+.footercontainer{
+    width:100% ;
+    padding: 20px 30px 20px; 
+
+}
+.socialIcons{
+    display:flex; 
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+.socialIcons a i{
+    font-size: 2px black;
+    opacity: 0.9;
+}
+.socialIcons a:hover{
+    background: #111;
+    transition:0.5s; 
+
+}
+.socialIcons a:hover i{
+    color: white;
+    transition:0.5s; 
+}
+
+.footerBottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+   
+}
+iframe {
+    aspect-ratio: 16/9;
+    width: 32.60%;
+  }
